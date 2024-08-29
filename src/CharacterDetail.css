@@ -1,0 +1,40 @@
+.character-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+  }
+  
+  .character-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .character-info {
+    text-align: center;
+  }
+  
+  .character-info h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .character-info p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  .loading, .error {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #007BFF;
+    margin-top: 50px;
+  }
+  

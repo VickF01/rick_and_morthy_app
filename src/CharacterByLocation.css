@@ -1,0 +1,37 @@
+.location-list {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .location-list-items {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .location-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .location-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .characters-list {
+    margin-top: 20px;
+  }
+  
+  .characters-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .characters-list li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+  }
+  
